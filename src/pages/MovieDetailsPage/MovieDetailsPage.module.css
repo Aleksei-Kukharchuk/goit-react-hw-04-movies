@@ -1,0 +1,25 @@
+.Button {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.MovieCard {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.MovieImg {
+  max-width: 300px;
+  margin-right: 10px;
+}
+
+.GenreList {
+  height: fit-content;
+}
+
+.AddInfoList {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+}
