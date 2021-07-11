@@ -1,6 +1,21 @@
 .Button {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 50px;
+  margin-top: 25px;
+
+  background-color: #334854;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.Button:hover {
+  background-color: #e04462;
 }
 
 .MovieCard {

@@ -1,8 +1,23 @@
 .AppBar {
-  border-bottom: 1px solid black;
-  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #334854;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-.Home {
-  margin-right: 10px;
+.Home,
+.Movies {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+}
+
+.Home:hover,
+.Movies:hover,
+.active {
+  background-color: #e04462;
 }
